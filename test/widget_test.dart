@@ -7,7 +7,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:how_old_your_name/Theme/theme.dart';
+import 'package:how_old_your_name/constants/theme.dart';
 
 import 'package:how_old_your_name/main.dart';
 

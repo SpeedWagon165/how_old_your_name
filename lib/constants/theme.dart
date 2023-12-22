@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:adaptive_theme/adaptive_theme.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
-import 'package:how_old_your_name/Screens/home_page.dart';
-import 'package:how_old_your_name/Theme/dark_light_theme.dart';
+import 'package:how_old_your_name/views/home_page.dart';
+import 'package:how_old_your_name/constants/dark_light_theme.dart';
 
 import '../generated/l10n.dart';
 
@@ -14,7 +14,7 @@ class MyApp extends StatelessWidget {
     return AdaptiveTheme(
       light: kLightMode,
       dark: kDarkMode,
-      initial: AdaptiveThemeMode.light,
+      initial: AdaptiveThemeMode.dark,
       builder: (light, dark) => MaterialApp(
         localizationsDelegates: const [
           S.delegate,
